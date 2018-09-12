@@ -6,7 +6,6 @@ import com.fasterxml.jackson.core.JsonFactory;
 import com.fasterxml.jackson.core.JsonParser;
 import com.fasterxml.jackson.core.JsonToken;
 import org.springframework.boot.json.JsonParseException;
-import org.springframework.stereotype.Component;
 
 import java.io.IOException;
 import java.net.URL;
