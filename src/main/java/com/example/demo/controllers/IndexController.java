@@ -15,7 +15,8 @@ public class IndexController {
         String login_page = "<a href='http://localhost:8080/login'>Link - Login page</a>";
         String calculator = "<a href='http://localhost:8080/calculator'>Link - Calculator page</a>";
         String logger = "<a href='http://localhost:8080/logger'>Link - Logger page</a>";
+        String json = "<a href='http://localhost:8080/json'>Link - JSON page</a>";
 
-        return title+login_page+ "</br>" +calculator+ "</br>" +logger;
+        return title+login_page+ "</br>" +calculator+ "</br>" +logger+ "</br>" +json;
     }
 }
