@@ -17,7 +17,8 @@ public class IndexController {
         String logger = "<a href='http://localhost:8080/logger'>Link - Logger page</a>";
         String json = "<a href='http://localhost:8080/json'>Link - JSON page</a>";
         String singleton = "<a href='http://localhost:8080/singleton'>Link - Singleton page</a>";
+        String cookie = "<a href='http://localhost:8080/cookie'>Link - Create cookie</a>";
 
-        return title+login_page+ "</br>" +calculator+ "</br>" +logger+ "</br>" +json+ "</br>" +singleton;
+        return title+login_page+ "</br>" +calculator+ "</br>" +logger+ "</br>" +json+ "</br>" +singleton+ "</br>" +cookie;
     }
 }
