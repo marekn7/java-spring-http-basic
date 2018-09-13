@@ -10,7 +10,7 @@ import org.springframework.stereotype.Component;
 @Component
 @Scope(ConfigurableBeanFactory.SCOPE_SINGLETON)
 @Slf4j
-public class BinarySearchImpl {
+public class BinarySearchFastImpl {
 
     private SortAlgorithm sortAlgorithm;
 
@@ -20,7 +20,7 @@ public class BinarySearchImpl {
         this.sortAlgorithm = sortAlgorithm;
     }
 
-    public Integer binarySerarch(Integer number) {
+    public Integer binarySearch(Integer number) {
 
         int number1 = sortAlgorithm.sort(number);
         System.out.println(number1);
